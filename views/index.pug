@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo
+          img(src="/static/img/logo.jpg")
+          | MDA 
+        li #[a(href="/") Home] 
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Contacts] 
+        li #[a(href="/") Class info]
+    section#intro 
+      div Welcome to Meenakshi Dance Academy
+      div.small Dancers don't need wings to fly.
+      div.small Don't let anyone ever dull your sparkle.
+    section#mission 
+      h2 Our Mission
+      div.card
+        h3 Create brave and inviting spaces for students.
+        div.cardbox 
+          div.cardimg 
+            img(src="/static/img/m1.jpg")
+          div.cardcontent 
+            p Lorem ipsum dolor sit amet consectetur.
+      div.card
+         h3 Strengthen creative skills with creative process of Making.
+         div.cardbox 
+          div.cardimg 
+            img(src="/static/img/m2.jpg")
+          div.cardcontent 
+            p Lorem ipsum dolor sit amet consectetur.
+      div.card
+        h3 Foster personal-agency,responsibility & action.
+        div.cardbox 
+          div.cardimg 
+            img(src="/static/img/m3.jpg")
+          div.cardcontent 
+            p Lorem ipsum dolor sit amet consectetur.
+    section#Sponsorssection 
+      h2 Our sponsors 
+      div#sponsors
+        img(src="/static/img/d1.jpg",alt="sponsor-1",class ="spimg")
+        img(src="/static/img/d2.jpg",alt="sponsor-1",class="spimg")
+        img(src="/static/img/d3.jpg",alt="sponsor-1",class="spimg")
+        img(src="/static/img/v4.jpg",alt="sponsor-1",class="spimg")
+        img(src="/static/img/d5.jpg",alt="sponsor-1",class="spimg")
+    footer#footer 
+      | Copyright © 2023 MeenakshiDanceAcademy.com | All rights  reserved
+    script
+      include ../static/index.js

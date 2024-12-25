@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Pacifico&family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lumanosimo&family=Pacifico&family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lumanosimo&family=Pacifico&family=Rancho&family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    height: 42px;
+    font-size: 28px;
+    margin-right: 40px;
+
+}
+#logo img{
+    height: 58px;
+    border-radius: 100%;
+}
+#navbar{
+    background-color: rgb(31, 28, 31);
+    margin:0 ;
+    padding: 24px 14px;;
+    font-family: Lumanosimo;
+    position: fixed;
+    width: 100%;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 17px;
+}
+#navbar li a:hover{
+    color: black;
+    background-color: gainsboro;
+    border-radius: 25px;
+}
+#intro{
+    height: 521px;
+    background-color: azure;
+    background:url(../static/img/allef-vinicius-iNOgTXeT3OM-unsplash.jpg) no-repeat center center/cover; 
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gochi Hand;
+    font-size: 35px;
+    flex-direction: column;
+}
+#intro div.small{
+    font-size: 1.4rem;
+}
+#mission{
+    height: 300px;
+    margin: auto;
+    width: 70%;
+    display: block;
+    /* background-color: aquamarine; */
+}
+#mission h2{
+    text-align: center;
+    font-family: Rancho; 
+    display: flex;
+    
+}
+
+.card{
+    border: 2px solid black;
+    width: 194px;
+    margin: 19px 8px;
+    border-radius: 20px;
+    height: 190px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+    font-family: Rancho;
+
+}
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardimg {
+    height: 79px;
+    padding: 2px 2px;
+    margin: 6px 6px;
+}
+.cardimg img{
+    height: inherit;
+    border-radius: 34px;
+    width: 70px;
+}
+.cardcontent{
+    padding: 0 12px;
+}
+.cardcontent p {
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    font-family: Gochi Hand;
+}
+
+#Sponsorssection{
+    height: 300px;
+    background-color: plum;
+}
+#Sponsorssection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: Rancho;
+}
+#sponsors {
+    height: 140px;
+    max-width: 1000px;
+    margin: 35px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.spimg {
+    height: 75%;
+    margin: 20px 10px;
+    border-radius: 65px;
+}
+
+#footer {
+    height: 60px;
+    color: white;
+    background-color: rgb(18, 17, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
